@@ -1,0 +1,208 @@
+/* GERAL */
+* {
+    margin:0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+}
+
+h1,h2,h3 {
+    color: green;
+
+}
+
+p {
+    color: black;
+}
+
+/* NAVBAR */
+.navbar-container {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(31, 40, 41);
+    padding: 0 2rem;
+
+}
+
+nav {
+    position: relative;
+
+}
+
+.logo {
+    width: 50px;
+    margin-top: 15px;
+}
+
+.navbar-items {
+    position: absolute;
+    right: 0;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    display: inline-block;
+
+}
+
+.navbar-items li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+
+}
+
+.navbar-items a {
+    color: rgb(9, 172, 9);
+    text-decoration: none;
+    transition: 0.6s;
+
+}
+
+.navbar-items a:hover {
+    color: rgb(13, 86, 13);
+}
+
+.defaut-btn {
+    padding: 15px 20px;
+    background-color: #2cc76a;
+    border-radius: 5px;
+
+}
+
+/* MAIN BANNER */
+.main-banner {
+    background-image: url(../img/Equipe.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 10rem 0;
+
+}
+
+.main-banner h1,
+.main-banner p {
+             color: #fff;
+             text-align: center;
+             font-weight: bold;
+             text-shadow: #000 3px 2px 3px;
+ }
+
+ .main-banner h1 {
+    font-size: 54px;
+
+ }
+
+ .main-banner p {
+    font-size: 32px;
+
+ }
+
+ /* SERVICES */
+ .services-container {
+    padding: 5rem 0;
+
+ }
+
+ .services-container ul {
+    display: flex; /*DEIXA UM DO LADO DO OUTRO*/
+    width: 90%;
+    margin: 0 auto;
+ }
+
+ .services-container li {
+    flex: 1 1 200px;
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+ }
+
+ .fas {
+    font-size: 60px;
+    margin-bottom: 15px;
+ }
+
+ .fa-shield-alt {
+    color: greenyellow;
+ }
+
+ .fa-rocket {
+    color:rgb(10, 10, 10);
+ }
+
+ .fa-comments {
+    color: red;
+ }
+
+ .services-container h3 {
+    margin-bottom: 25px;
+
+ }
+
+.services-container p {
+    line-height: 24px;
+}
+
+/* PRICES AND PLANS*/
+.pricing-container {
+    padding-bottom: 5rem;
+    text-align: center;
+
+}
+
+.pricing-container h2 {
+    font-size: 32px;
+}
+
+.pricing-container p {
+    font-size: 20px;
+}
+
+.plans-container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 50px auto 0;
+}
+
+.plan {
+    flex: 1;
+    max-width: 275px;
+    margin: 0 25px;
+}
+
+
+.plan ul {
+    padding: 0;
+}
+
+
+.plan li {
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    background-color: darkgray;
+    color: #333;
+}
+
+
+.plan .price {
+    width: 120px;
+    height: 120px;
+    border-radius: 55%;
+    background-color: #2cc76a;
+    color: #000000;
+    text-align: center;
+    line-height: 120px;
+    margin: 0 auto -50px;
+    font-size: 18px;
+    position: relative;
+}
+
+.plan .plan-name {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #333;
+    padding: 50px 0;
+}
